@@ -4,81 +4,83 @@ const Cards = () => {
   return (
     <div>
 
-    <div class="grid grid-cols-4 grid-rows-2 gap-4 p-3">
-    <div class="bg-blue-200 p-4"> 
-    <h2 class="text-2xl font-semibold">Electronics</h2>
+    <div class="grid grid-cols-6 grid-rows-6 gap-2 m-4 p-3">
+    <div class="bg-blue-100 p-4"> 
+    
+    
+    <div class="flex gap-5 mt-1">
+      <img src="image/hp1.jpeg" width="150px" height="150px" alt="images"/>
+    </div>
+    <div class="flex gap-8 mt-4">
+
+    <p class="mt-2 text-xl  text-blue-500 font-bold"> Best wireless Heaphones </p>
+    </div>
+    </div>
+
+    <div class="bg-slate-200 p-4"> 
+    
     
     <div class="flex gap-8 mt-1">
-      <img src="image/hp.jpeg"  width="110px" height="110px" />
-      <img src="image/hp1.jpeg" width="110px" eight="110px" alt="images"/>
+      <img src="image/logo1.jpeg" width="150px" height="150px" alt="images"/>
     </div>
-
-    
     <div class="flex gap-8 mt-4">
-      <img src="image/hp2.jpeg" width="110px" height="110px" />
-      <img src="image/hp3.jpeg" width="110px" height="110px" alt="images"/>
-    </div>
-    <p class="mt-2">Explore All</p>
-    </div>
-    
 
+    <p class="mt-2 text-xl   text-blue-500 font-bold"> Popular Branded Items </p>
+    </div>
+    </div>
+
+    <div class="bg-slate-200 p-4"> 
     
-    <div class="bg-blue-200 p-4"> 
-    <h2 class="text-2xl font-semibold">Brands</h2>
     
     <div class="flex gap-8 mt-1">
-      <img src="image/logo1.jpeg"  width="110px" height="110px" />
-      <img src="image/logo2.jpeg" width="110px" eight="110px" alt="images"/>
+      <img src="image/ap3.jpeg" width="150px" height="130px" alt="images"/>
     </div>
-
-    
     <div class="flex gap-8 mt-4">
-      <img src="image/logo3.png" width="110px" height="110px" />
-      <img src="image/logo4.png" width="110px" height="110px" alt="images"/>
-    </div>
-    <p class="mt-2">Explore All</p>
-    </div>
-    
 
-    <div class="bg-blue-200 p-4"> 
-    <h2 class="text-2xl font-semibold">Appliances</h2>
+    <p class="mt-2 text-xl text-blue-500 font-bold"> Home Appliances </p>
+    </div>
+    </div>
+
+    <div class=" bg-slate-200 p-4"> 
+    
     
     <div class="flex gap-8 mt-1">
-      <img src="image/a1.jpeg"  width="110px" height="40px" />
-      <img src="image/ap2.jpeg" width="110px" height="40px" alt="images"/>
+      <img src="image/cl1.jpeg" width="150px" height="110px" alt="images"/>
     </div>
-
-    
     <div class="flex gap-8 mt-4">
-      <img src="image/ap3.jpeg" width="110px" height="50px" />
-      <img src="image/ap4.jpeg" width="110px" height="50px" alt="images"/>
-    </div>
-    <p class="mt-2">Explore All</p>
-    </div>
-    
-    
-    
-    <div class="bg-blue-200 p-4"> 
-    <h2 class="text-2xl font-semibold">Clothing</h2>
-    
-    <div class="flex gap-8 mt-1">
-      <img src="image/s1.jpeg"  width="90px" height="20px" />
-      <img src="image/s2.jpeg" width="90px" height="40px" alt="images"/>
+
+    <p class="mt-2 text-xl  text-blue-500 font-bold"> Primere Shirts </p>
     </div>
 
+
+  
+   
+    </div>
     
+    <div class="bg-slate-200 p-4"> 
+    
+    
+    <div class="flex gap-5 mt-1">
+      <img src="image/s4.jpeg" width="150px" height="100px" alt="images"/>
+    </div>
     <div class="flex gap-8 mt-4">
-      <img src="image/s3.jpeg" width="90px" height="40px" />
-      <img src="image/s4.jpeg" width="90px" height="40px" alt="images"/>
-    </div>
-    <p class="mt-2">Explore All</p>
-    </div>
-    
-    
-    
-    
-    
 
+    <p class="mt-2 text-xl   text-blue-500 font-bold"> Healthy Face Washes </p>
+    </div>
+    </div>
+
+
+    <div class="bg-slate-200 p-4"> 
+    
+    
+    <div class="flex gap-5 mt-1">
+      <img src="image/s3.jpeg" width="150px" height="50px" alt="images"/>
+    </div>
+    <div class="flex gap-8 mt-4">
+
+    <p class="mt-2 text-xl  text-blue-500 font-bold"> Shampoos and Condtioners</p>
+    </div>
+    </div>
 
     </div>
 
