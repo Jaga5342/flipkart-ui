@@ -1,10 +1,9 @@
 import React from 'react';
 import './index.css';
 
-function Header() {
+const Header= ({props,search,setSearch}) => {
   return (
     <div className="flex items-center w-full bg-slate-100 text-black h-16 px-4">
-
       <div className="flex items-center">
        <div className="text-center text-2xl text-blue-600 font-bold mr-4 cursor-pointer">
         Flipkart
@@ -20,6 +19,8 @@ function Header() {
           type="text" 
           placeholder=" 🔍 Search for Products,Brands and More" 
           className="flex-grow h-10 px-2 rounded-l-md text-black bg-slate-300"
+          value={search}
+          onSubmit ={(e) => setSearch(e.target.value)}
         />
        
       </div>
@@ -35,4 +36,7 @@ function Header() {
   );
 }
 
+Header.defaultProps={
+  name:' ShoppingWebsite',
+};
 export default Header;

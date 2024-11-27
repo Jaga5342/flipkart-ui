@@ -3,10 +3,12 @@ import Navbar from  "./Navbar";
 import Content from "./Content";
 import Cards from "./Cards";
 import './index.css';
+import { useState } from "react";
 function App() {
+  const[search,setSearch]=useState('');
   return (
     <>
-    <Header />
+    <Header search={search} setSearch={setSearch} />
     <Navbar />
     <Content />
     <Cards />
